@@ -1,0 +1,32 @@
+main{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+.arrow_container{    
+    box-sizing: border-box;
+    border: 1px solid black;
+    align-self: center;
+    height: 40px;
+    width: 40px;
+}
+.arrow {
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    border-right: 8px solid black;
+    border-top: 8px solid black;
+    transform: rotate(225deg);
+}
+section{
+    height: 40px;
+    width: 40px;
+    border: 1px solid ;
+}
+.right .arrow{
+    
+    transform: rotate(45deg);
+
+}
