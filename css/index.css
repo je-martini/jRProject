@@ -1,0 +1,14 @@
+/* =========== HEADER SECTION ============= */
+
+*{
+    margin: auto;
+}
+
+#menuBar{
+    border: solid 1px red;
+
+}
+
+.logoSection img{
+    width: 200px;
+}
