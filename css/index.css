@@ -1,14 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+
 /* =========== HEADER SECTION ============= */
 
-*{
-    margin: auto;
+* {
+  margin: auto;
 }
 
-#menuBar{
-    border: solid 1px red;
-
+#menuBar {
+  width: 100%;
+  display: flex;
+  background-color: rgba(28, 27, 27, 0.96);
+  top: 0;
 }
 
-.logoSection img{
-    width: 200px;
+.logoSection {
+  margin-left: 40px;
+}
+
+.logoSection img {
+  width: 200px;
+}
+
+.menuBar {
+  padding: 10px;
+}
+
+.menuBar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.menuBar ul a {
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.menuBar ul a li {
+  margin: 5px 20px;
+  transition: 0.2s;
+  font-family: "Boogaloo", cursive;
+}
+
+.menuBar ul a li:hover {
+  text-decoration: underline;
+  text-underline-position: under;
 }
